@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "MyStroke",
+    "slug": "MyStroke",
+    "privacy": "unlisted",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/square_icon.png",
+    "splash": {
+      "image": "./assets/images/Logo_forward.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B5BA3"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
