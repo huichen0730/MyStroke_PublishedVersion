@@ -28,9 +28,6 @@ A cross-platform video-exercise app named **MyStroke** for physiotherapy, an ind
   ![Patient User Interface Demo](https://github.com/huichen0730/MyStroke_PublishedVersion/blob/master/Interface%20Demos/PatientInterface.gif)
   
   
-  
-- User Manual
-  - See the document MyStroke_UserManual;
 
 ### Extra Notes
 The final version of MyStroke app with the Expo SDK 35 (i.e. latest SDK in October 2019); Publish on expo server under the user name MyStroke
