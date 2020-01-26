@@ -35,13 +35,12 @@ export default class PatientFeedback extends React.Component {
   }
 
   componentDidMount() {
-
-        var feedback = [];
-        
         var refPath = firebase.database().ref('feedback').orderByChild('patient'); 
         refPath.on('value', (snapshot) => {
           if(snapshot.exists())
           {
+            var feedback = [];
+            
             snapshot.forEach((item) => {
               var temp = item.val();
       
